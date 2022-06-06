@@ -1,0 +1,53 @@
+.container {
+    /* min-height: 100vh; */
+    max-height: auto;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    grid-template-rows: 40% 60%;
+    grid-gap: 1rem;
+    padding: 25px 50px;
+    margin-bottom: 50px;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: rgba(253, 247, 247, 0.881);
+}
+
+.nav {
+    background-color: rgba(220, 206, 206, 0.881);
+    grid-row: span 2;
+    text-align: center;
+    padding: 200px 0
+}
+
+.rev {
+    background-color: rgba(220, 206, 206, 0.881);
+    text-align: center;
+}
+
+.rat {
+    background-color: rgba(220, 206, 206, 0.881);
+    text-align: center;
+}
+
+.ana {
+    background-color: rgba(220, 206, 206, 0.881);
+    text-align: center;
+}
+
+.vis{
+    background-color: rgba(220, 206, 206, 0.881);
+    text-align: center;
+    grid-column: 2 / 6;
+    padding: 25px;
+    margin-right: 15px;
+    
+} 
+
+.visNum {
+    max-height: fit-content;
+    height: 75%;
+    background-color: rgba(163, 158, 158, 0.717);
+    text-align: center;
+}
